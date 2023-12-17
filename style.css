@@ -1,0 +1,181 @@
+:root{
+    --hover-color: goldenrod;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+.sliderBanner{
+    position: relative;
+}
+
+.logo-container{
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+
+.selectItem{
+    height: 240px;
+    /* margin-top: 8px; */
+    background-color: rgb(4, 196, 196);
+}
+.selectContainer{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.selectContainer select, option{
+    font-weight: bold;
+}
+
+.submitButton{
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 30px;    
+    background-color: #29a9ad;
+
+}
+.submitButton:hover{
+    background-color: var(--hover-color)
+}
+
+
+/* Section starts here */
+
+.sectionContainer{
+    height: 900px;
+    /* background-color: gray; */
+    
+}
+.sectionContent{
+    background-color: rgb(178, 211, 213);
+    height: 350px;
+    /* align-self: last baseline; */ 
+}
+.sectionContent h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 75px;
+    padding-top: 40px;
+}
+.sectionContent p{
+    /* color: aqua; */
+    width: 610px;
+    margin-left: 75px;
+    margin-top: 150px;
+    font-size: 1.1rem;
+}
+.sectionContent button{
+    background-color: #29a9ad;
+    margin-left: 75px;
+    border-radius: 30px;
+    font-weight: bold;
+    height: 40px;
+    
+}
+
+.sectionContent button:hover{
+    background-color: var(--hover-color);
+}
+
+
+.section1 img{
+    position: absolute;
+    top: 1070px;
+    right: 200px;
+}
+
+.section1 .insideImage{
+    position: absolute;
+    top: 1300px;
+    right: 360px;
+}
+.section2 .imageCon{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+/* x */
+
+.section2 img:hover{
+    width: 660px;
+    height: 510px;
+    transition: .3s ease;
+}
+.section2{
+    position: relative;
+}
+
+.section2 .btn1{
+    position: absolute;
+    top: 500px;
+    left: 350px;
+    border-radius: 100px;
+    background-color: hsla(0,0%,100%,.315);
+    width: 140px;
+
+}
+.section2 .btn1:hover{
+   background-color: hsla(0, 0%, 100%, .450);
+   width: 200px;
+   transition-duration: 1s;
+}
+.section2 .btn2{
+    position: absolute;
+    top: 500px;
+    right: 350px;
+    border-radius: 100px;
+    background-color: hsla(0,0%,100%,.315);
+    width: 140px;
+}
+.section2 .btn2:hover{
+    background-color: hsla(0, 0%, 100%, .450);
+    width: 200px;
+    transition-duration: 1s;
+ }
+
+ .contact{
+    /* background-color: red; */
+    margin-left: 150px;
+    margin-right: 80px;
+ }
+ .contact button{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;    
+    background-color: #29a9ad;
+ }
+ .contact button:hover{
+    background-color: var(--hover-color);
+ }
+
+ footer{
+    background-color: rgb(235, 226, 226);
+    font-weight: 500;
+ }
+
+ footer a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bold;
+ }
+
+
+
+
+
+ /* ABOUT Page Starts here */
+ 
